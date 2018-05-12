@@ -1,0 +1,29 @@
+{
+  "name": "hotelsdeals",
+  "version": "1.0.0",
+  "description": "Hotel deals app to show our hotels offers and search through hotels offers",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.16.3",
+    "lodash": "4.17.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadeelAlFoqahaa/hotelsDeals.git"
+  },
+  "keywords": [
+    "hotels",
+    "deals",
+    "offers"
+  ],
+  "author": "Hadeel AlFoqaha'a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadeelAlFoqahaa/hotelsDeals/issues"
+  },
+  "homepage": "https://github.com/HadeelAlFoqahaa/hotelsDeals#readme"
+}

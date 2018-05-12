@@ -1,0 +1,313 @@
+{
+	"offerInfo": {
+		"siteID": "1",
+		"language": "en_US",
+		"currency": "USD",
+		"userSelectedCurrency": "USD"
+	},
+	"userInfo": {
+		"persona": {
+			"personaType": "OTHERS"
+		},
+		"userId": "foo"
+	},
+	"offers": {
+		"Hotel": [
+			{
+				"offerDateRange": {
+					"travelStartDate": [
+						2018,
+						9,
+						25
+					],
+					"travelEndDate": [
+						2018,
+						9,
+						26
+					],
+					"lengthOfStay": 1
+				},
+				"destination": {
+					"regionID": "178286",
+					"associatedMultiCityRegionId": "178286",
+					"longName": "Miami (and vicinity), Florida, United States of America",
+					"shortName": "Miami",
+					"country": "United States of America",
+					"province": "Florida",
+					"city": "Miami",
+					"tla": "FLL",
+					"nonLocalizedCity": "Miami"
+				},
+				"hotelInfo": {
+					"hotelId": "20176205",
+					"hotelName": "Casablanca Luxury House",
+					"localizedHotelName": "Casablanca Luxury House",
+					"hotelDestination": "North Miami Beach",
+					"hotelDestinationRegionID": "55169",
+					"hotelLongDestination": "North Miami Beach,FL,USA",
+					"hotelStreetAddress": "21310 NE 19th Ave.",
+					"hotelCity": "North Miami Beach",
+					"hotelProvince": "FL",
+					"hotelCountryCode": "USA",
+					"hotelLatitude": 25.97178,
+					"hotelLongitude": -80.16357,
+					"hotelStarRating": "3.5",
+					"hotelGuestReviewRating": 0,
+					"hotelReviewTotal": 0,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/21000000/20180000/20176300/20176205/c806ee16_t.jpg",
+					"vipAccess": false,
+					"isOfficialRating": false
+				},
+				"hotelPricingInfo": {
+					"averagePriceValue": 970.33,
+					"totalPriceValue": 970.33,
+					"crossOutPriceValue": 3969.58,
+					"originalPricePerNight": 3969.58,
+					"currency": "USD",
+					"percentSavings": 75.56,
+					"drr": false
+				},
+				"hotelUrls": {
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F20176205%2F2018-09-25%2F2018-09-26",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-09-25%2F2018-09-26%3FSearchType%3DDestination%26CityName%3DNorth+Miami+Beach%26RegionId%3D178286%26Selected%3D20176205"
+				}
+			},
+			{
+				"offerDateRange": {
+					"travelStartDate": [
+						2018,
+						10,
+						19
+					],
+					"travelEndDate": [
+						2018,
+						10,
+						21
+					],
+					"lengthOfStay": 2
+				},
+				"destination": {
+					"regionID": "178280",
+					"associatedMultiCityRegionId": "178280",
+					"longName": "Los Angeles (and vicinity), California, United States Of America",
+					"shortName": "Los Angeles",
+					"country": "United States of America",
+					"province": "California",
+					"city": "Los Angeles",
+					"tla": "QLA",
+					"nonLocalizedCity": "Los Angeles"
+				},
+				"hotelInfo": {
+					"hotelId": "13100360",
+					"hotelName": "El Royale Gardens Near Universal Studios",
+					"localizedHotelName": "El Royale Gardens Near Universal Studios",
+					"hotelDestination": "Studio City",
+					"hotelDestinationRegionID": "9758",
+					"hotelLongDestination": "Studio City,CA,USA",
+					"hotelStreetAddress": "11117 Ventura Blvd",
+					"hotelCity": "Studio City",
+					"hotelProvince": "CA",
+					"hotelCountryCode": "USA",
+					"hotelLatitude": 34.141384,
+					"hotelLongitude": -118.372485,
+					"hotelStarRating": "2.5",
+					"hotelGuestReviewRating": 4.72,
+					"hotelReviewTotal": 142,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/14000000/13110000/13100400/13100360/b066f4fe_t.jpg",
+					"vipAccess": false,
+					"isOfficialRating": false
+				},
+				"hotelPricingInfo": {
+					"averagePriceValue": 142.35,
+					"totalPriceValue": 284.7,
+					"crossOutPriceValue": 365,
+					"originalPricePerNight": 365,
+					"currency": "USD",
+					"percentSavings": 61,
+					"drr": false
+				},
+				"hotelUrls": {
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13100360%2F2018-10-19%2F2018-10-21",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-10-19%2F2018-10-21%3FSearchType%3DDestination%26CityName%3DStudio+City%26RegionId%3D178280%26Selected%3D13100360"
+				}
+			},
+			{
+				"offerDateRange": {
+					"travelStartDate": [
+						2018,
+						6,
+						3
+					],
+					"travelEndDate": [
+						2018,
+						6,
+						4
+					],
+					"lengthOfStay": 1
+				},
+				"destination": {
+					"regionID": "178276",
+					"associatedMultiCityRegionId": "178276",
+					"longName": "Las Vegas (and vicinity), Nevada, United States of America",
+					"shortName": "Las Vegas",
+					"country": "United States of America",
+					"province": "Nevada",
+					"city": "Las Vegas",
+					"tla": "LAS",
+					"nonLocalizedCity": "Las Vegas"
+				},
+				"hotelInfo": {
+					"hotelId": "15575",
+					"hotelName": "Mirage Resort & Casino",
+					"localizedHotelName": "Mirage Resort & Casino",
+					"hotelDestination": "Las Vegas",
+					"hotelDestinationRegionID": "2008",
+					"hotelLongDestination": "Las Vegas,NV,USA",
+					"hotelStreetAddress": "3400 Las Vegas Blvd S",
+					"hotelCity": "Las Vegas",
+					"hotelProvince": "NV",
+					"hotelCountryCode": "USA",
+					"hotelLatitude": 36.122197,
+					"hotelLongitude": -115.171625,
+					"hotelStarRating": "4.0",
+					"hotelGuestReviewRating": 4.19,
+					"hotelReviewTotal": 23415,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/20000/15600/15575/77af75e6_t.jpg",
+					"vipAccess": false,
+					"isOfficialRating": false
+				},
+				"hotelPricingInfo": {
+					"averagePriceValue": 74.87,
+					"totalPriceValue": 74.87,
+					"crossOutPriceValue": 159.43,
+					"originalPricePerNight": 159.43,
+					"currency": "USD",
+					"percentSavings": 53.04,
+					"drr": false
+				},
+				"hotelUrls": {
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F15575%2F2018-06-03%2F2018-06-04",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-06-03%2F2018-06-04%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D15575"
+				}
+			},
+			{
+				"offerDateRange": {
+					"travelStartDate": [
+						2018,
+						11,
+						11
+					],
+					"travelEndDate": [
+						2018,
+						11,
+						12
+					],
+					"lengthOfStay": 1
+				},
+				"destination": {
+					"regionID": "178248",
+					"associatedMultiCityRegionId": "178248",
+					"longName": "Chicago (and vicinity), Illinois, United States of America",
+					"shortName": "Chicago",
+					"country": "United States of America",
+					"province": "Illinois",
+					"city": "Chicago",
+					"tla": "CHI",
+					"nonLocalizedCity": "Chicago"
+				},
+				"hotelInfo": {
+					"hotelId": "2327",
+					"hotelName": "Red Roof Inn Chicago - Lansing",
+					"localizedHotelName": "Red Roof Inn Chicago - Lansing",
+					"hotelDestination": "Lansing",
+					"hotelDestinationRegionID": "8534",
+					"hotelLongDestination": "Lansing,IL,USA",
+					"hotelStreetAddress": "2450 East 173rd Street",
+					"hotelCity": "Lansing",
+					"hotelProvince": "IL",
+					"hotelCountryCode": "USA",
+					"hotelLatitude": 41.582889,
+					"hotelLongitude": -87.556489,
+					"hotelStarRating": "2.0",
+					"hotelGuestReviewRating": 2.61,
+					"hotelReviewTotal": 980,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/10000/2400/2327/5b15f35d_t.jpg",
+					"vipAccess": false,
+					"isOfficialRating": false
+				},
+				"hotelPricingInfo": {
+					"averagePriceValue": 35.99,
+					"totalPriceValue": 35.99,
+					"crossOutPriceValue": 59.99,
+					"originalPricePerNight": 59.99,
+					"currency": "USD",
+					"percentSavings": 40.01,
+					"drr": false
+				},
+				"hotelUrls": {
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F2327%2F2018-11-11%2F2018-11-12",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-11-11%2F2018-11-12%3FSearchType%3DDestination%26CityName%3DLansing%26RegionId%3D178248%26Selected%3D2327"
+				}
+			},
+			{
+				"offerDateRange": {
+					"travelStartDate": [
+						2018,
+						10,
+						7
+					],
+					"travelEndDate": [
+						2018,
+						10,
+						16
+					],
+					"lengthOfStay": 9
+				},
+				"destination": {
+					"regionID": "178293",
+					"associatedMultiCityRegionId": "178293",
+					"longName": "New York (and vicinity), New York, United States of America",
+					"shortName": "New York",
+					"country": "United States of America",
+					"province": "New York",
+					"city": "New York",
+					"tla": "NYC",
+					"nonLocalizedCity": "New York"
+				},
+				"hotelInfo": {
+					"hotelId": "21567876",
+					"hotelName": "Manhattan",
+					"localizedHotelName": "Manhattan",
+					"hotelDestination": "New York",
+					"hotelDestinationRegionID": "2621",
+					"hotelLongDestination": "New York,NY,USA",
+					"hotelStreetAddress": "4768 Broadway",
+					"hotelCity": "New York",
+					"hotelProvince": "NY",
+					"hotelCountryCode": "USA",
+					"hotelLatitude": 40.86641,
+					"hotelLongitude": -73.9244,
+					"hotelStarRating": "3.0",
+					"hotelGuestReviewRating": 2,
+					"hotelReviewTotal": 3,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/22000000/21570000/21567900/21567876/54d7ffad_t.jpg",
+					"vipAccess": false,
+					"isOfficialRating": false
+				},
+				"hotelPricingInfo": {
+					"averagePriceValue": 95.99,
+					"totalPriceValue": 863.91,
+					"crossOutPriceValue": 159.99,
+					"originalPricePerNight": 159.99,
+					"currency": "USD",
+					"percentSavings": 40,
+					"drr": false
+				},
+				"hotelUrls": {
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F21567876%2F2018-10-07%2F2018-10-16",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-10-07%2F2018-10-16%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D21567876"
+				}
+			}
+		]
+	}
+}
