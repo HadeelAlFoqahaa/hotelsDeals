@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotels Deals</title>
+	<!-- <script src="./bower_components/requirejs/require.js" data-main="app/config.js" ></script> -->
+	<script src="./bower_components/jquery/dist/jquery.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.core.js" ></script>
+	<link rel="stylesheet" href="./css/main.css"></style>
+</head>
+<body>
+   	<div id="root">
+   		<div>
+   			<div>
+	   			<form>
+	   				<div id="filter" class="row">
+		   				<div class="panel-body">
+		   					<div class="col-md-4">
+		   						<input type="text" name="destinationName" placeholder="Destnation name" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="destnationCity" placeholder="Destnation city" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="regionIds" placeholder="regionIds" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="minTripStartDate" placeholder="minTripStartDate" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="maxTripStartDate" placeholder="maxTripStartDate" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="lengthOfStay" placeholder="lengthOfStay" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="minStarRating" placeholder="minStarRating" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="maxStarRating" placeholder="maxStarRating" class="form-control userInputs margin-top-25" />
+		   					</div>
+
+		   					<div class="col-md-4">
+		   						<input type="text" name="minTotalRate" placeholder="minTotalRate" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="maxTotalRate" placeholder="maxTotalRate" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="minGuestRating" placeholder="minGuestRating" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-4">
+		   						<input type="text" name="maxGuestRating" placeholder="maxGuestRating" class="form-control userInputs margin-top-25" />
+		   					</div>
+		   					<div class="col-md-12">
+		   						<button type="button" class="form-control margin-top-25 btn btn-info" id="apply-search">
+		   							Apply
+		   						</a>
+		   					</div>
+		   				</div>
+	   				</div>
+	   			</form>
+   			</div>
+   		</div>
+
+   		<div>
+   			<div class="container margin-top-25">
+				<div class="row" id="deals">
+				
+				</div>
+			</div>
+   		</div>
+   </div>	
+</body>
+
+<script type="text/javascript" src="App.js">
+	
+</script>
+</html>
