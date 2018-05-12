@@ -4,21 +4,25 @@ const queryHelper = require('../helpers/queryHelper');
 
 module.exports = function (req, res) {
 
+	const query = req.query;
+	const queryKeys = _.keys(query);
+
+	let offers = JSON.parse(fs.readFileSync("app/src/offers.json"));
+	offers = offers.offers.Hotel;
+
+	/* if there is no any criteria so return all offers. */
+	if (queryKeys.length == 0)
+		return res.send(offers);
+
 	/* We only support certain query params,
 	 * if the user tried to send other params,
 	 * his query will be ignored.
 	*/
-	const query = req.query;
-	const queryKeys = _.keys(query);
-
 	if(_.difference(queryKeys, _.keys(queryHelper)).length > 0){
 		return res.status(404).send({
 			message : 'Some of query params not supported.'
 		});
 	}
-
-	let offers = JSON.parse(fs.readFileSync("app/src/offers.json"));
-	offers = offers.offers.Hotel;
 	
 	let matchedOffers = [];
 	
