@@ -1,15 +1,13 @@
 define([
-	'App'
+	'App',
+	'modules/hotels-deals/deals/deal/model',
 ], function(
-	App
+	App,
+	DealModel
 ){
 	return Backbone.Collection.extend({
 
-		model: Backbone.Model,
-
-		initialize: function(options){
-		  
-		},
+		model: DealModel,
 
 		url: function(){
 			return '/getOffers';

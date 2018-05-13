@@ -1,21 +1,19 @@
 define([
 	'App',
+	'modules/hotels-deals/deals/deal/model',
 	'text!modules/hotels-deals/deals/deal/template.html'
 ],
 function(
 	App,
+	DealModel,
 	template
 ){
-	return Backbone.Marionette.ItemView.extend({
+	return Backbone.Marionette.View.extend({
 
-		template: _.template(template),
+		model : DealModel,
 
-		initialize : function (options) {
-			
-		},
-		
-		onRender: function(){
-			
-		},
+		className : 'col-sm-3',
+
+		template: _.template(template)
 	});
 });

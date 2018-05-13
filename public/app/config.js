@@ -10,16 +10,11 @@ require.config( {
 		
 		backbone: '../bower_components/backbone/backbone',
 
-		marionette: '../bower_components/marionette/lib/core/backbone.marionette',
-
-		'backbone.babysitter': '../bower_components/backbone.babysitter/lib/backbone.babysitter',
-		
-		'backbone.wreqr': '../bower_components/backbone.wreqr/lib/backbone.wreqr',
+		marionette: '../bower_components/marionette/lib/backbone.marionette',
 		
 		bootstrap: '../bower_components/bootstrap/dist/js/bootstrap',
 
-		marionetteRegion : './helpers/overrides/marionetteRegion'
-		// 'backbone.radio': '../bower_components/backbone.radio/build/backbone.radio'
+		'backbone.radio': '../bower_components/backbone.radio/build/backbone.radio'
 	},
 
 	shim: {
@@ -38,17 +33,13 @@ require.config( {
 		},
 
 		marionette : {
-			deps: [ 'underscore', 'backbone', 'backbone.wreqr', 'backbone.babysitter'],
+			deps: [ 'underscore', 'backbone', 'backbone.radio'],
 			exports: 'Marionette'
 		},
 
 		bootstrap: {
 			deps: [ 'jquery' ]
 		},
-
-		marionetteRegion : {
-			deps : ['marionette']
-		}
 	},
 
 	waitSeconds: 0,

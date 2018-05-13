@@ -6,7 +6,7 @@ function(
 	HotelsView,
 	template
 ){
-	return Backbone.Marionette.LayoutView.extend({
+	return Backbone.Marionette.View.extend({
 		
 		el: 'body',
 
@@ -16,19 +16,8 @@ function(
 			content: "#page-content",
 		},
 
-		initialize : function (options) {
-			// Based on options view hotelsdeals, now we only have one hotelsview 
-			console.log('initialize')
-		},
-		
 		onRender: function(){
-			console.log('Render')
-			this.contentView = new HotelsView();
-			this.getRegion('content').show(this.contentView);
-		},
-
-		onDestroy: function(){
-			$('html').append(document.createElement('body'));
+			this.getRegion('content').show(new HotelsView())
 		},
 	});
 });
