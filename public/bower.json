@@ -21,7 +21,7 @@
     "requirejs": "2.3.5",
     "lodash": "4.17.10",
     "backbone": "1.2.3",
-    "marionette": "2.4.7",
+    "marionette": "3.1.0",
     "text": "2.0.15",
     "jquery": "3.3.1",
     "bootstrap": "3.3.7"
