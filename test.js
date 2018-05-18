@@ -46,3 +46,16 @@ describe('/GET length of stay 1 offer', () => {
 			});
     });
 });
+
+describe('/GET Test the date maxTripStartDate=2018-06-03', () => {
+	it('it should GET 1 hotel', (done) => {
+		chai.request(server)
+			.get('/getOffers?maxTripStartDate=2018-06-03')
+			.end((err, res) => {
+				res.should.have.status(200);
+				res.body.should.be.a('array');
+				res.body.length.should.be.eq(1);
+			    done();
+			});
+    });
+});
