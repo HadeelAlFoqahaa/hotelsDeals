@@ -9,7 +9,9 @@ Hotels deals app uses a number of open source projects to work properly:
 > As as server side, which is the destenation for many users, 
 it must be speed, scalable.
 > How NodeJs support the speeding and the scalability?
-> By Asynchronous process, i.e it provides an event-driven  > architecture and a nonblocking I/O API that optimizes an > application's throughput and scalability.
+> By Asynchronous process, i.e it provides an event-driven  
+> architecture and a nonblocking I/O API that optimizes an 
+> application's throughput and scalability.
 
 * [Backbone] - JS framework for web apps!
 * [Marionette] - extended from backbone for web app.
