@@ -21,15 +21,27 @@ function(
 		initialize : function (options) {
 
 			this.collection = new DealsCollection();
-			this.collection.fetch();
 
 			App.vent.on('filter:offers', this.getOffers, this);
 		},
 
+		onAttach : function(){
+			$('.loader').fadeIn();
+			this.collection.fetch({
+				success : function(){
+					$('.loader').fadeOut();
+				}
+			});
+		},
+
 		getOffers : function(criteria){
+			$('.loader').fadeIn();
 			this.collection.fetch({
 				reset: true,
-				data : criteria
+				data : criteria,
+				success : function(){
+					$('.loader').fadeOut();
+				}
 			});
 		},
 

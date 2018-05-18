@@ -16,8 +16,9 @@ it must be speed, scalable.
 * [Bootstrap] - great UI boilerplate for modern web apps
 * [Express] - fast node.js network app framework.
 * [Mocha] - Test a Node RESTful API.
+* [Travis] - Travis CI to test build.
 
-### What I learnt from the app:
+### What I've learnt from the app:
 > As a programming side, I have already the experience to manipulate the data using the NodeJs language and to make it support us as we like, but its a good idea that makes the developer in a challenge to think how the criteria will match a different name of which its name at the storage, with a little cost, so the best performance.
 
 > As a deploying side, it was the second time for me for deploying the site, I've learnt alot about this process, I think it was interesting.
@@ -33,3 +34,4 @@ it must be speed, scalable.
 [Marionette]: <https://marionettejs.com>
 [Bootstrap]: <http://expressjs.com>
 [Mocha]: <https://mochajs.org>
+[Travis]: <https://travis-ci.org/HadeelAlFoqahaa/hotelsDeals/jobs/380848745>
