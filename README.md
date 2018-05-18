@@ -23,3 +23,10 @@ or change the port by the config file.
 Set your criteria on the inputs elements, the click on Apply button.
 basically see the offers!.
 ```
+
+The site domain:
+[HotelsDeals] online hotels offers app.
+
+
+
+[HotelsDeals]:<https://serene-falls-55546.herokuapp.com/>
