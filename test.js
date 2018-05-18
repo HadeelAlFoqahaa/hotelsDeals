@@ -34,8 +34,8 @@ describe('/GET Miami offer', () => {
     });
 });
 
-describe('/GET length of stay 1 offer', () => {
-	it('it should GET length of stay = 1 hotel', (done) => {
+describe('/GET length of stay=1 offer', () => {
+	it('it should GET 3 hotels', (done) => {
 		chai.request(server)
 			.get('/getOffers?lengthOfStay=1')
 			.end((err, res) => {
