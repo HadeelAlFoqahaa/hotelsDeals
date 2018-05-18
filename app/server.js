@@ -10,6 +10,6 @@ app.use(offers);
 
 var port = process.env.PORT || config.port;
 
-app.listen(port, function(){
+module.exports = app.listen(port, function(){
 	console.log('Listening on port ' + port);
 });
