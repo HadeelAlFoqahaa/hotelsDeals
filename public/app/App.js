@@ -3,14 +3,16 @@ define([
 	'underscore',
 	'backbone',
 	'marionette',
-	'bootstrap'
+	'bootstrap',
+	'datepicker'
 ],
 function (
 	$,
 	_,
 	Backbone,
 	Marionette,
-	bootstrap
+	bootstrap,
+	datepicker
 ) {
 
 	var App = new Backbone.Marionette.Application();

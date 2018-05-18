@@ -24,6 +24,7 @@
     "marionette": "3.1.0",
     "text": "2.0.15",
     "jquery": "3.3.1",
-    "bootstrap": "3.3.7"
+    "bootstrap": "3.3.7",
+    "bootstrap-datepicker": "1.8.0"
   }
 }

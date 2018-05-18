@@ -14,7 +14,9 @@ require.config( {
 		
 		bootstrap: '../bower_components/bootstrap/dist/js/bootstrap',
 
-		'backbone.radio': '../bower_components/backbone.radio/build/backbone.radio'
+		'backbone.radio': '../bower_components/backbone.radio/build/backbone.radio',
+		
+		'datepicker': '../bower_components/bootstrap-datepicker/js/bootstrap-datepicker'
 	},
 
 	shim: {
@@ -38,6 +40,10 @@ require.config( {
 		},
 
 		bootstrap: {
+			deps: [ 'jquery' ]
+		},
+
+		datepicker: {
 			deps: [ 'jquery' ]
 		},
 	},
