@@ -1,18 +1,14 @@
 <div class="panel panel-default panel-front" title=""> 		
 	<div class="panel-heading">
 		<h4 class="panel-title"><a HREF="#">
-			<img class="hotels" src="<%=hotelInfo.hotelImageUrl%> ">
+			<img class="hotels img-circle" src="<%=hotelInfo.hotelImageUrl%> ">
 			</a>
 		</h4> 	
 	</div> 
 	
-	<div class="panel-body"> 
-		<h4>  <%=destination.shortName%>  </h4>
+	<div class="panel-body margin-top-25"> 
+		<h4>  At <%=destination.shortName%>  </h4>
 		<div>
-			<label>
-				Name: <%=destination.shortName%> 
-			</label>
-			<br/>
 			<label>
 				Length of stay: <%=offerDateRange.lengthOfStay%> 
 			</label> 
@@ -26,17 +22,18 @@
 				 (offerDateRange.travelStartDate + '').replace(/,/g, '-')
 				%>
 			</label>
+			<br/>
 			<label>
-				Star Rating: <%=hotelInfo.hotelStarRating%> 
+				Rating: <%=hotelInfo.hotelStarRating%> 
 			</label>
 			<br/>
 			<label>
-				Total review: <%=hotelInfo.hotelReviewTotal%>
+				Review: <%=hotelInfo.hotelReviewTotal%>
 			</label>
 			,
 			<label>
-				Guest Review Ratingy: <%=hotelInfo.hotelGuestReviewRating%>
+				Guest Review: <%=hotelInfo.hotelGuestReviewRating%>
 			</label>
 		</div> 
 	</div>
-</div> 		
+</div> 

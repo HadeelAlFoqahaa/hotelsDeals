@@ -4479,14 +4479,46 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .panel-front .panel-heading .panel-title img {
-	border-radius:3px 3px 0px 0px;
-	width:100%;
+	/*border-radius:3px 3px 0px 0px;*/
+	width:46%;
+	margin-bottom: -30px;
+	margin-top: 15px;
+	border: 8px solid #fff;
 }
 
 .panel-front .panel-heading {
 	padding: 0px;	
 }
 
+
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #fff;
+}
+.widget-user .widget-user-image {
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -45px;
+}
+.widget-user .widget-user-image>img {
+    width: 90px;
+    height: auto;
+    border: 3px solid #fff;
+}
+
+.img-circle {
+    border-radius: 50% !important;
+}
+
+.box .border-right {
+    border-right: 1px solid #f4f4f4;
+}
 .panel-front .panel-heading h4 {
 	line-height: 0;
 }
