@@ -1,6 +1,8 @@
 # Hotels Deals
 An Hotels app to show the hotels offers, (searchable). 
-# Programing language:
+
+### Tech
+
 Nodejs at server side
 
 # Why NodeJs:
@@ -9,7 +11,6 @@ it must be speed, scalable.
 > How NodeJs support the speeding and the scalability?
 > By Asynchronous process, i.e it provides an event-driven  > architecture and a nonblocking I/O API that optimizes an > application's throughput and scalability.
 
-### Tech
 Hotels deals app uses a number of open source projects to work properly:
 * [Backbone] - JS framework for web apps!
 * [Marionette] - extended from backbone for web app.
