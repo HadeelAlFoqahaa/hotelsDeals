@@ -10,8 +10,15 @@ Install the dependencies then start the server.
 ```sh
 $ cd hotelsDeals
 $ npm install 
-$ node app/server.js
+$ node start
 ```
+
+To Test:
+
+```sh
+$ npm test 
+```
+
 ```
 Go to your borwser then type localhost:8000
 or change the port by the config file.
