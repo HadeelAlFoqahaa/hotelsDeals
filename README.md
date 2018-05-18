@@ -3,20 +3,18 @@ An Hotels app to show the hotels offers, (searchable).
 
 ### Tech
 
-Nodejs at server side
+Hotels deals app uses a number of open source projects to work properly:
 
-# Why NodeJs:
+# At server side NodeJS, Why NodeJs:
 > As as server side, which is the destenation for many users, 
 it must be speed, scalable.
 > How NodeJs support the speeding and the scalability?
 > By Asynchronous process, i.e it provides an event-driven  > architecture and a nonblocking I/O API that optimizes an > application's throughput and scalability.
 
-Hotels deals app uses a number of open source projects to work properly:
 * [Backbone] - JS framework for web apps!
 * [Marionette] - extended from backbone for web app.
 * [jQuery] - to manipulate the html elements.
 * [Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framewor.
 
 ### Installation
