@@ -25,8 +25,10 @@ it must be speed, scalable.
 
 > As a deploying side, it was the second time for me for deploying the site, I've learnt alot about this process, I think it was interesting.
 
+> Testing using mocha and travis were interesting ways to check my apps.
 
-
+> Being a full stack web developer, and at the same time being separately
+at each side was interesting.
 
 
 [node.js]: <http://nodejs.org>
