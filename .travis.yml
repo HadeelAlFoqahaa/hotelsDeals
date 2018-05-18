@@ -1,10 +1,5 @@
 language: node_js
 node_js:
-  - "7"
-  - "6"
-  - "5"
-  - "4"
-install:
-  - npm install
-script:
-  - npm test
+  - 9
+  - 8
+  - node
